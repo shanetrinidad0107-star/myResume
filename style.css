@@ -49,11 +49,14 @@ body {
     bottom: 15px;
     left: 50%;
     transform: translateX(-50%);
-    background: #fff;
+    background: #4ae752;
     padding: 8px 20px;
     border-radius: 30px;
     font-weight: bold;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.namebadge h3 {
+color:#fbfdff
 }
 
 .panel-container {
@@ -97,4 +100,27 @@ ul {
 
 ul li {
     margin-bottom: 8px;
+}
+.summarypanel {
+    background: #fff; 
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    /* The Shadow Box Effect */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); 
+    border-left: 5px solid #2a5298; 
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.summarypanel:hover {
+    transform: translateY(-5); /* Lifts slightly when hovered */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.summarypanel h3 {
+    margin-top: 0; 
+}
+
+.summarypanel p {
+    margin-bottom: 0; 
 }
